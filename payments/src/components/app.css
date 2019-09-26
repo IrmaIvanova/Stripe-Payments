@@ -1,7 +1,8 @@
 .background{
     background: #f6f9fc;
-    height: 690px;
+    height: 655px;
     transform: skewY(-12deg);
+    z-index: 1;
 }
 .back{
     background: #f6f9fc;
@@ -15,7 +16,7 @@
 }
  .stripes {
     display: grid;
-    grid: repeat(14, 80px) / repeat(22, 1fr);
+    grid: repeat(14, 85px) / repeat(22, 1fr);
     position: relative;
     top: -110px;
     /* transform: skewY(-12deg); */
@@ -32,7 +33,7 @@
   }
   
 .stripes .outline_shift-down {
-    transform: translateY(-37px);
+    transform: translateY(-53px);
     grid-row: 3;
     grid-column: 16/ span 1;
     box-shadow: inset 0 0 0 2px #e6ebf1;
@@ -48,7 +49,6 @@
 }
 
 .stripes .outline_shift-up {
-
     grid-row: 13;
     grid-column: 18/span 2;
     box-shadow: inset 0 0 0 2px #e6ebf1;

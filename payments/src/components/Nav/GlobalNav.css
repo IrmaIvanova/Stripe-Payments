@@ -1,0 +1,30 @@
+.arrow:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color:  #6b7c93;
+    right: 0;
+    position: absolute;
+}
+.arrow2:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    right: 310px;
+    bottom: 2px;
+    position: absolute;
+}
+
+.arrow2:hover:before{
+
+    color: #32325d;
+
+}
+.active a {
+    color: #32325d;
+}
+
+a:hover{
+    color:#32325d;
+}

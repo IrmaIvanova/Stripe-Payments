@@ -1,13 +1,15 @@
 import React from 'react';
 import './sass/index.sass';
-import BackGrid from './components/app.js';
+import Header from './components/Header.js';
+import MainBlock from './components/Content/MainBlok.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BackGrid></BackGrid>
-        
+
+        <Header/>
+        <MainBlock/>
       </header>
     </div>
   );
