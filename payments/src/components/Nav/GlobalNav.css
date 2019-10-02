@@ -25,7 +25,25 @@
     bottom: -61px;
     position: absolute;
 }
+.arrow4:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 580px;
+    bottom: 100px;
+    position: absolute;
+}
 
+.arrow5:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 1000px;
+    bottom: 44px;
+    position: absolute;
+}
 .arrow2:hover:before{
 
     color: #32325d;
