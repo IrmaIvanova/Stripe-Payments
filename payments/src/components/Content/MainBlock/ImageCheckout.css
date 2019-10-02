@@ -1,0 +1,56 @@
+.background1{
+    background: #fff;
+    /* height: 655px; */
+    transform: skewY(-12deg);
+    z-index: -5;
+}
+.back1{
+    background: #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    /* top: -100px; */
+    z-index: -5;
+    
+
+}
+ .stripes1 {
+    display: grid;
+    grid: repeat(7, 75px) / repeat(22, 1fr);
+    position: relative;
+    top: 0px;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+}
+
+ .stripes1  .outline {
+    grid-row: 7;
+    grid-column: 5/ span 4;
+    box-shadow: inset 0 0 0 2px #e6ebf1;
+    z-index: -1;
+
+
+  }
+  
+.stripes1 .outline_shift-down {
+
+    grid-row: 3 ;
+    grid-column: 3/ span 7;
+    box-shadow: inset 0 0 0 2px #e6ebf1;
+
+
+}
+
+
+
+ 
+ 
+
+
+  .stripes1 .state8 {
+    grid-row: 4;
+    grid-column: 1/ span 8;
+    background: #e6ebf1;
+  }
+  
+

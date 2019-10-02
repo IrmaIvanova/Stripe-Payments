@@ -11,8 +11,18 @@
     content: "\279E";
     padding-left: 6px;
     color: #6772e5;
-    right: 310px;
-    bottom: 2px;
+    right: 260px;
+    bottom: 126px;
+    position: absolute;
+}
+
+.arrow3:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    right: 335px;
+    bottom: -61px;
     position: absolute;
 }
 
@@ -28,3 +38,32 @@
 a:hover{
     color:#32325d;
 }
+
+.downloud:before{ 
+    content: '';
+    background-image: url('../../img/download.svg');
+    background-position: 40px 20px;
+    background-size: 20px 20px;
+    /* padding-left: 6px; */
+    color: #6772e5;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+
+.downloud2:before{ 
+    content: '';
+    background-image: url('../../img/download.svg');
+    background-position: 40px 20px;
+    background-size: 20px 20px;
+    /* padding-left: 6px; */
+    color: #6772e5;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+

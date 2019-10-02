@@ -5,12 +5,13 @@ const H3 = styled.h3`
     font-size: 21px;
     margin-bottom: 20px;
     font-family: 'Nunito Sans', sans-serif;
+    color: #32325D;
 `
 
 class SubTitles extends React.Component{
     render(){
         return(
-            <div><H3>{this.props.title}</H3></div>
+            <H3 >{this.props.title}</H3>
         );
     }
 }

@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 
 
-const MainParagraf = styled.div`
-    width: 500px;
+const MainParagraf = styled.p`
+    
 
-    margin-bottom: 30px;
     font-size: 24px;
     color: #424770;
     line-height: 32px;
+    font-weight: 300;
 `
 
 

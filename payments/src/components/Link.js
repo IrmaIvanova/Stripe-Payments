@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 
-const Item = styled.div`
+const Item = styled.a`
    
 `
 
@@ -12,9 +12,8 @@ const Item = styled.div`
 class Link extends React.Component {
   render(){
     return (
-        <Item>
-        <a href="#">{this.props.text}</a>
-        </Item>
+
+        <Item href="#">{this.props.text}</Item>
 
     );
   }
