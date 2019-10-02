@@ -37,6 +37,7 @@ const Box = styled.div`
 const Item = styled.div`
     width: 500px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     a{  
         
@@ -58,7 +59,7 @@ const ArrowBox = styled.div`
     }
 `
 const DownLoudBox=styled.span`
-
+  width: 208px;
 `
 
 class Developer extends React.Component {
@@ -72,12 +73,12 @@ class Developer extends React.Component {
                     <SubTitles title="DEVELOPER-CENTRIC"/>
                     <Paragraf className="introText" text="Rapidly build production-ready integrations with modern tools, from React components to real-time webhooks. Using Stripe’s developer platform means less maintenance for legacy systems and more focus on core customer and product experiences."/>
                     <Item>
-                    <DownLoudBox className="downloud2"><Link text="An IDC study shows that"/></DownLoudBox>
-                    <DownLoudBox className="downloud"><Link text="An IDC study shows that"/></DownLoudBox>
-                    <DownLoudBox className="downloud"><Link text="An IDC study shows that"/></DownLoudBox>
-                    <DownLoudBox className="downloud2"><Link text="An IDC study shows that"/></DownLoudBox>
-                    <DownLoudBox className="downloud"><Link text="An IDC study shows that"/></DownLoudBox>
-                    <DownLoudBox className="downloud2"><Link text="An IDC study shows that"/></DownLoudBox>
+                    <DownLoudBox className="downloud2"><Link text="Webhooks"/></DownLoudBox>
+                    <DownLoudBox className="downloud"><Link text="World-class docs"/></DownLoudBox>
+                    <DownLoudBox className="downloud"><Link text="Libraries in every language"/></DownLoudBox>
+                    <DownLoudBox className="downloud2"><Link text="Test environment"/></DownLoudBox>
+                    <DownLoudBox className="downloud"><Link text="Versioned API changes"/></DownLoudBox>
+                    <DownLoudBox className="downloud2"><Link text="Metadata support"/></DownLoudBox>
                      </Item>
                      <ArrowBox className="arrow3"><Link text="Explore the docs"/></ArrowBox>
                 </Box>
@@ -88,3 +89,8 @@ class Developer extends React.Component {
   }
 }
 export default Developer;
+
+
+
+
+
