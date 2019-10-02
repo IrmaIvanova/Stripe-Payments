@@ -1,0 +1,92 @@
+.background3{
+    background: #f6f9fc;
+    height: 655px;
+    transform: skewY(-12deg);
+    z-index: 1;
+}
+.back3{
+    background: #f6f9fc;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+    
+
+}
+ .stripes3 {
+    display: grid;
+    grid: repeat(14, 85px) / repeat(22, 1fr);
+    position: relative;
+    top: -110px;
+    /* transform: skewY(-12deg); */
+    transform-origin: 0;
+}
+
+ .stripes3  .outline3 {
+    grid-row: 6;
+    grid-column: 2/ span 3;
+    box-shadow: inset 0 0 0 2px #e6ebf1;
+    z-index: -1;
+    transform: translateY(37px);
+
+  }
+  
+.stripes3 .outline_shift-down3 {
+    transform: translateY(-53px);
+    grid-row: 3;
+    grid-column: 16/ span 1;
+    box-shadow: inset 0 0 0 2px #e6ebf1;
+
+
+}
+
+.stripes3 .outline_shift3 {
+   transform: translateY(-2px);
+   grid-row: 12;
+   grid-column: 2/span 2;
+   box-shadow: inset 0 0 0 2px #e6ebf1;
+}
+
+.stripes3 .outline_shift-up3 {
+    grid-row: 13;
+    grid-column: 18/span 2;
+    box-shadow: inset 0 0 0 2px #e6ebf1;
+ }
+ 
+  .stripes3 .state83 {
+    grid-row: 4;
+    grid-column: 1 / span 4;
+    background: #e6ebf1;
+  }
+  
+  .stripes3 .state8_right3 {
+    grid-row: 10;
+    grid-column: 18 / span 3;
+    background: #e6ebf1;
+  }
+  
+  .stripes3 .state8_right13 {
+    grid-row: 10;
+    grid-column: 18 / span 3;
+    background: #e6ebf1;
+  }
+
+
+  .stripes3 .blue43 {
+    grid-row: 9;
+    grid-column: 1/ span 5;
+    background: #32325d;
+    ;
+  }
+
+
+  .stripes3 .yellow63{
+    grid-row: 10;
+    grid-column: 3/ span 2;
+    background: #fcd669;
+  }
+
+
+
+

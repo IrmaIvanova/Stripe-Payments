@@ -1,0 +1,51 @@
+
+
+.poster:before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    z-index: 5;
+    border-width: 0px 0 326px 118px;
+    bottom: -44px;
+    right: 659px;
+}
+
+.arrow6:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    right: 480px;
+    bottom: 25px;
+    position: absolute;
+}
+
+.after:after{
+
+    content: '';
+    -webkit-mask-image: url('../../../img/luft.svg');
+    background-color: #fff;
+    background-position: -2px 12px;
+    background-size: 239px 100px;
+    /* padding-left: 6px; */
+    color: #6772e5;
+    width: 215px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    bottom: 113px;
+    z-index: 5;
+}
+
+.after:before{
+    content: '';
+    position: absolute;
+    background: #32325d;
+    opacity: .7;
+    width: 500px;
+    height: 299px;
+    top: 19px;
+    border-top-left-radius: 4%;
+    z-index: 4;
+}
