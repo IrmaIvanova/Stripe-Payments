@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../Title';
 import styled from 'styled-components';
 import About1 from './About1';
+import About3 from './About3'
 
 
 const Container = styled.div`
@@ -30,6 +31,7 @@ class AboutSecurity extends React.Component {
                 <Title title="Security and compliance at the core"/>
             </InContainer>
             <About1/>
+            <About3/>
 
 
         </Container>

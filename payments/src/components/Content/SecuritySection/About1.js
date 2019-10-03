@@ -6,6 +6,7 @@ import '../../Nav/GlobalNav.js';
 import SubTitles from '../SubTitle.js';
 import '../../Nav/GlobalNav.css';
 import About2 from './About2';
+
 const Container = styled.div`
     width: 1903px;
     height: 400px;

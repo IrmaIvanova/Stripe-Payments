@@ -73,6 +73,15 @@
     bottom: 138px;
     position: absolute;
 }
+.arrow8:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 206px;
+    bottom: 208px;
+    position: absolute;
+}
 
 
 .arrow2:hover:before{
@@ -133,4 +142,16 @@ a:hover{
     right: 850px;
     left: 0;
 
+}
+
+.conerGrayRight:before{
+    content:'';
+    position: absolute;
+    z-index: -3;
+    background: #f6f9fc;
+    transform: skewY(-12deg);
+    top: -156px;
+    bottom: 0;
+    left: 21px;
+    right: -408px;
 }
