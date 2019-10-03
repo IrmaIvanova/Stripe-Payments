@@ -45,7 +45,7 @@ class Back3 extends React.Component {
                     <div className="stripe3 blue1_right3"></div>
                     <div className="stripe3 blue4_right3"></div>
                     <div className="stripe3 blue6_right3"></div>
-                    <div className="stripe3 state8_right23"></div>
+                    <div className="stripe3 state8_right13"></div>
                     <div className="stripe3 blue4_right13"></div>
                     <div className="stripe3 outline_shift3"></div>
                     <div className="stripe3 state8_right33"></div>

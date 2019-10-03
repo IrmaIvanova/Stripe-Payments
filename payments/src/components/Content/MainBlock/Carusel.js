@@ -11,6 +11,8 @@ import five from '../../../img/missguided.jpg';
 import Paragraf from './ParagrafMain';
 import Link from '../../Link';
 
+import Back3 from './back3';
+
 
 const Item = styled.div`
 a{
@@ -30,7 +32,7 @@ const TextBox=styled.div`
   width: 660px;
   height: auto;
   background: #fff;
-  margin: 60px;
+  padding: 60px;
 
 
   p{
@@ -46,6 +48,10 @@ width: 1160px;
 height: 300px;
 position: relative;
 top: 900px;
+
+`
+const Image=styled.div`
+border-bottom-left-radius: 4%;
 img{
   position: relative;
   width: 500px;
@@ -56,15 +62,13 @@ img{
 
 }
 `
-const Image=styled.div`
-
-`
 const Ground=styled.div`
 
 `
 class Carusel extends React.Component {
   render(){
     return(
+      <div>
           <CaruselItem>
                 <Carousel 
                 slidesPerPage={1}
@@ -74,6 +78,7 @@ class Carusel extends React.Component {
                 itemWidth={1160}
                 clickToChange
                 infinite
+                autoPlay={3000}
                 arrows >
 
 
@@ -115,6 +120,8 @@ class Carusel extends React.Component {
                 </Carousel>
                 
         </CaruselItem>
+        <Back3></Back3>
+        </div>
     )
     }
 }

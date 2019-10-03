@@ -1,30 +1,41 @@
 .background3{
-    background: #f6f9fc;
-    height: 655px;
+   
+  position: relative;
     transform: skewY(-12deg);
-    z-index: 1;
+    z-index: -3;
+}
+
+.background3:before{
+  content:'';
+  position: absolute;
+  background: #f6f9fc;
+  top: 763px;
+  bottom: -536px;
+  left: 0px;
+  right: 0px;
+
+  z-index: -3;
 }
 .back3{
-    background: #f6f9fc;
-    height: 500px;
+
     width: 100%;
     position: absolute;
-    top: -100px;
-    z-index: -1;
+    top: 400px;
+    z-index: -3;
     
 
 }
  .stripes3 {
     display: grid;
-    grid: repeat(14, 85px) / repeat(22, 1fr);
+    grid: repeat(10, 75px) / repeat(22, 1fr);
     position: relative;
-    top: -110px;
+    top: 314px;
     /* transform: skewY(-12deg); */
     transform-origin: 0;
 }
 
  .stripes3  .outline3 {
-    grid-row: 6;
+    grid-row: 1;
     grid-column: 2/ span 3;
     box-shadow: inset 0 0 0 2px #e6ebf1;
     z-index: -1;
@@ -33,9 +44,9 @@
   }
   
 .stripes3 .outline_shift-down3 {
-    transform: translateY(-53px);
-    grid-row: 3;
-    grid-column: 16/ span 1;
+
+    grid-row: 7;
+    grid-column: 2/ span 2;
     box-shadow: inset 0 0 0 2px #e6ebf1;
 
 
@@ -43,47 +54,53 @@
 
 .stripes3 .outline_shift3 {
    transform: translateY(-2px);
-   grid-row: 12;
-   grid-column: 2/span 2;
+   grid-row: 9;
+   grid-column: 1/span 2;
    box-shadow: inset 0 0 0 2px #e6ebf1;
 }
 
 .stripes3 .outline_shift-up3 {
-    grid-row: 13;
+    grid-row: 10;
     grid-column: 18/span 2;
     box-shadow: inset 0 0 0 2px #e6ebf1;
  }
  
   .stripes3 .state83 {
-    grid-row: 4;
-    grid-column: 1 / span 4;
+    grid-row: 6;
+    grid-column: 1 / span 6;
     background: #e6ebf1;
   }
   
   .stripes3 .state8_right3 {
-    grid-row: 10;
-    grid-column: 18 / span 3;
+    grid-row: 8;
+    grid-column: 20 / span 3;
     background: #e6ebf1;
   }
   
   .stripes3 .state8_right13 {
-    grid-row: 10;
-    grid-column: 18 / span 3;
+    grid-row: 4;
+    grid-column: 19 / span 2;
     background: #e6ebf1;
   }
 
 
   .stripes3 .blue43 {
-    grid-row: 9;
-    grid-column: 1/ span 5;
+    grid-row: 4;
+    grid-column: 2/ span 2;
     background: #32325d;
     ;
   }
 
+  .stripes3 .blue1_right3{
+    grid-row: 7;
+    grid-column: 17/span 5;
+    background: #6772e5;
+
+  }
 
   .stripes3 .yellow63{
-    grid-row: 10;
-    grid-column: 3/ span 2;
+    grid-row: 5;
+    grid-column: 1/ span 5;
     background: #fcd669;
   }
 
