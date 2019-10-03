@@ -6,6 +6,12 @@
     right: 0;
     position: absolute;
 }
+
+.arrow:hover:before{
+
+    color: #32325d;
+
+}
 .arrow2:before{
     font: normal 16px StripeIcons;
     content: "\279E";
@@ -25,6 +31,11 @@
     bottom: -61px;
     position: absolute;
 }
+.arrow3:hover:before{
+
+    color: #32325d;
+
+}
 .arrow4:before{
     font: normal 16px StripeIcons;
     content: "\279E";
@@ -34,7 +45,11 @@
     bottom: 100px;
     position: absolute;
 }
+.arrow4:hover:before{
 
+    color: #32325d;
+
+}
 .arrow5:before{
     font: normal 16px StripeIcons;
     content: "\279E";
@@ -44,7 +59,29 @@
     bottom: 44px;
     position: absolute;
 }
+.arrow5:hover:before{
+
+    color: #32325d;
+
+}
+.arrow7:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 172px;
+    bottom: 138px;
+    position: absolute;
+}
+
+
 .arrow2:hover:before{
+
+    color: #32325d;
+
+}
+
+.arrow7:hover:before{
 
     color: #32325d;
 
@@ -85,3 +122,15 @@ a:hover{
 }
 
 
+.conerGray:before{
+    content:'';
+    position: absolute;
+    z-index: -3;
+    background: #f6f9fc;
+    transform: skewY(-12deg);
+    top: 0;
+    bottom: -50px; 
+    right: 850px;
+    left: 0;
+
+}

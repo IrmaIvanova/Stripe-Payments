@@ -12,6 +12,7 @@ import Paragraf from './ParagrafMain';
 import Link from '../../Link';
 
 import Back3 from './back3';
+import PartnersLogoBlock from './PartnersLogoBlock.js';
 
 
 const Item = styled.div`
@@ -120,7 +121,9 @@ class Carusel extends React.Component {
                 </Carousel>
                 
         </CaruselItem>
+        <PartnersLogoBlock/>
         <Back3></Back3>
+
         </div>
     )
     }
