@@ -3,6 +3,7 @@ import './sass/index.sass';
 import Header from './components/Header.js';
 import MainBlock from './components/Content/MainBlok.js';
 import AboutSecurity from './components/Content/SecuritySection/AboutSecurity';
+import DeepDive from './components/Content/SectionDeepDive/DeepDive';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <MainBlock/>
         <AboutSecurity/>
+        <DeepDive/>
     </div>
   );
 }
